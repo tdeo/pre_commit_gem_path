@@ -1,0 +1,8 @@
+repos:
+- repo: local
+  hooks:
+    - id: rubocop
+      name: rubocop
+      language: ruby
+      language_version: 2.6.5
+      entry: rubocop
